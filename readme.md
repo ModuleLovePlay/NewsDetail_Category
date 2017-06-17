@@ -1,0 +1,1 @@
+pod "NewsDetail_Category"
