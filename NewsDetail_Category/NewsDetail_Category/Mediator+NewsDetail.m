@@ -12,7 +12,7 @@
 
 - (UIViewController *)NewsDetail_viewControllerWithNewsID:(NSString *)newsID
 {
-    NSDictionary *params = @{kMediatorParamsNewsIDKey : newsID};
+    NSDictionary *params = @{kMediatorNewsDetailParamsNewsIDKey : newsID};
     return [self performTarget:@"NewsDetail" action:@"viewController" params:params isCacheTarget:NO];
 }
 

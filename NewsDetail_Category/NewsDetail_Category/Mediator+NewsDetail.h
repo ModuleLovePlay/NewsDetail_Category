@@ -8,7 +8,7 @@
 
 #import <Mediator/Mediator.h>
 
-NSString * const kMediatorParamsNewsIDKey = @"newsIDKey";
+NSString * const kMediatorNewsDetailParamsNewsIDKey = @"newsIDKey";
 
 @interface Mediator (NewsDetail)
 
